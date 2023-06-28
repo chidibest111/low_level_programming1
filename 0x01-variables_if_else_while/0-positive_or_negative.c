@@ -1,15 +1,13 @@
 #include <time.h>
 /**
- * main -generate random numbers to detect -ve or +ve
+ * main - generate random numbers to detect -ve or +ve
  *
  * Return: always (0)
  *
  */
 int main(void)
 {
-
 	int n;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
@@ -25,5 +23,3 @@ int main(void)
 		printf("%d is negative\n", n);
 	}
 	return (0)
-}
-
