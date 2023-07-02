@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main = prints alphets excepts q and e
+ * main - prints alphets excepts q and e
  *
  * Return: always (0)
  *
